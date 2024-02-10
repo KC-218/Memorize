@@ -8,21 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		DA4AEE832B6A940200D06930 /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4AEE822B6A940200D06930 /* MemorizeApp.swift */; };
-		DA4AEE852B6A940200D06930 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4AEE842B6A940200D06930 /* ContentView.swift */; };
+		DA4AEE852B6A940200D06930 /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4AEE842B6A940200D06930 /* EmojiMemoryGameView.swift */; };
 		DA4AEE872B6A940300D06930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA4AEE862B6A940300D06930 /* Assets.xcassets */; };
 		DA4AEE8A2B6A940300D06930 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA4AEE892B6A940300D06930 /* Preview Assets.xcassets */; };
-		DA57DD452B76210C0093F648 /* MemorizeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA57DD442B76210C0093F648 /* MemorizeGame.swift */; };
 		DA57DD472B7621B00093F648 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA57DD462B7621B00093F648 /* EmojiMemoryGame.swift */; };
+		DAE8F34E2B77442A0084ACFD /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8F34D2B77442A0084ACFD /* MemoryGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DA4AEE7F2B6A940200D06930 /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA4AEE822B6A940200D06930 /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
-		DA4AEE842B6A940200D06930 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DA4AEE842B6A940200D06930 /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
 		DA4AEE862B6A940300D06930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA4AEE892B6A940300D06930 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DA57DD442B76210C0093F648 /* MemorizeGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeGame.swift; sourceTree = SOURCE_ROOT; };
 		DA57DD462B7621B00093F648 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+		DAE8F34D2B77442A0084ACFD /* MemoryGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +55,10 @@
 		DA4AEE812B6A940200D06930 /* Memorize */ = {
 			isa = PBXGroup;
 			children = (
-				DA57DD442B76210C0093F648 /* MemorizeGame.swift */,
+				DAE8F34D2B77442A0084ACFD /* MemoryGame.swift */,
 				DA57DD462B7621B00093F648 /* EmojiMemoryGame.swift */,
+				DA4AEE842B6A940200D06930 /* EmojiMemoryGameView.swift */,
 				DA4AEE822B6A940200D06930 /* MemorizeApp.swift */,
-				DA4AEE842B6A940200D06930 /* ContentView.swift */,
 				DA4AEE862B6A940300D06930 /* Assets.xcassets */,
 				DA4AEE882B6A940300D06930 /* Preview Content */,
 			);
@@ -143,10 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA4AEE852B6A940200D06930 /* ContentView.swift in Sources */,
+				DA4AEE852B6A940200D06930 /* EmojiMemoryGameView.swift in Sources */,
 				DA4AEE832B6A940200D06930 /* MemorizeApp.swift in Sources */,
-				DA57DD452B76210C0093F648 /* MemorizeGame.swift in Sources */,
 				DA57DD472B7621B00093F648 /* EmojiMemoryGame.swift in Sources */,
+				DAE8F34E2B77442A0084ACFD /* MemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
